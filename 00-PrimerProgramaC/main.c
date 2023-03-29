@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 int main() {
-   printf("Hola, mundo!\n");
-   
-   for (int i = 0; i < 10; i++) {
-      printf("i = %d\n", i);
-   }
-   
-
-   return 0;
+    char nombre[120];
+    
+    printf("Ingresa tu nombre: ");
+    scanf("%s", nombre);
+    
+    printf("Hola, %s. Bienvenido!\n", nombre);
+    
+    return 0;
 }
